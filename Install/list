@@ -1,8 +1,8 @@
 #!/bin/bash
 #====================================================
-#	@kiritosshxd
+#	@REVDEVVPN
 #====================================================
-_lvk=$(wget -qO- https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/master/Sistema/versao)
+_lvk=$(wget -qO- https://raw.githubusercontent.com/SYMnetsuport/SSHPLUS/master/Sistema/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
